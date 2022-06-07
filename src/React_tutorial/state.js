@@ -1,4 +1,4 @@
-import react from 'react'
+import react, { useEffect } from 'react'
 import React, {useState} from 'react'
 
 // setCounter = function(value){
@@ -15,6 +15,9 @@ import React, {useState} from 'react'
 
 function Count1(){
     const [counter, setCounter] = useState(0)
+
+    useEffect(() => {console.log('i ran', counter)}
+    , [counter])
 
 
     function Increase(){
