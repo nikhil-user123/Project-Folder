@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import data from './data'
-import SingleQuestion from './Question'
+import SingleQuestion from './questions'
+import './app.css'
+import './ui.css'
 
 function SingleQue() {
 	return (
@@ -20,4 +22,4 @@ data.map(question => {
 	)
 }
 
-export default ASingleQue
+export default SingleQue

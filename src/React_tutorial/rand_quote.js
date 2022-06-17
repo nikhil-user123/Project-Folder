@@ -7,8 +7,10 @@ function Quot () {
 
 
 function randomizeQuote(){
-    const randomQuote = quotes[Math.floor (Math.random() * quotes.length)] setQuote(randomQuote)]
-    setQuote(randomQuote)
+    // const randomQuote =
+    // quotes[Math.floor (Math.random() * quotes.length)] :
+    //  setQuote(randomQuote)]
+    // setQuote(randomQuote)
 }
 return (
   <div className="" >

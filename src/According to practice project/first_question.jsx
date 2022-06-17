@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import data from './data'
-import SingleQuestion from './Question'
-function App() {
+import './ui.css'
+import SingleQuestion from './questions'
+import './app.css'
+function Fqe() {
    return <main>
 <div className="container">
 <h3>FAQ</h3>
@@ -16,7 +18,8 @@ function App() {
 </main>
 }
 
-export default App
+export default Feq
+
 
 
 

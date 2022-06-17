@@ -1,8 +1,11 @@
 import React, { useState } from 'react'
+import './app.css'
+import './ui.css'
 import data from './data'
-import SingleQuestion from './Question'
+import SingleQuestion from './questions'
 
-function App() {
+
+function Project1() {
 	return (
 		<main>
 			<div className="container">
@@ -23,5 +26,5 @@ function App() {
 	)
 }
 
-export default App
+export default Project1
 

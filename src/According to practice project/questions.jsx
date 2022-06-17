@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
+import './app.css'
+import './ui.css'
 
-const Question = (props) => {
+const SingleQuestion = (props) => {
 	const { title, info } = props
 
 	// update the UI here
@@ -15,5 +17,5 @@ const Question = (props) => {
 </article>)
 }
 
-export default Question
+export default SingleQuestion
 

@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
+import './app.css'
+import './ui.css'
 
 const Question = (props) => {
-	const { title, info } = props // i can't understand this line
+	const { title, info } = props 
 
 
     const [visibility, setVisibility] = useState(false); 

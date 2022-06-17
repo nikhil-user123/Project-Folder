@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
+import './ques.css'
 
-export default function App() {
+export default function Project4() {
 	// Define a state variable here to track question status
 	const [currentIndex, setCurrentIndex] = useState(0)
     const [score, setScore] = useState(0)
@@ -43,7 +44,7 @@ export default function App() {
 			],
 		},
 	]
-      //i did not not understood code down below
+   
 	function handleAnswerClick(isCorrect) {
 		// Check if correct answer is pressed. (See the hint on the left)
         if (isCorrect) {
@@ -96,3 +97,4 @@ export default function App() {
 		</div>
 	)
 }
+
