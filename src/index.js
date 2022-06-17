@@ -7,13 +7,14 @@ import ReactDOM from 'react-dom'
 // import Project1 from './According to practice project/App'
 // import Project4 from './React Quise Project/ques_score' 
   //  import Project3 from './Tiktok UI Clone/TikTok'
-  import Project5 from './React Tours App/Tapp'
+  // import Project5 from './React Tours App/Tapp'
 // import Project2 from './React Birthday Reminder App/Displaying_ui'
+import Project6 from './Restourent menu app/Rmenu'
    import reportWebVitals from './reportWebVitals'
 
 ReactDOM.render(
   
-   <Project5 />
+   <Project6 />
  
  ,
 
