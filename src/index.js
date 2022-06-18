@@ -1,21 +1,21 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import {BrowserRouter} from "react-router-dom";
 
-// import './index.css'
+import './index.css'
+import Nav from './Webpage';
 
-// import App from './React_tutorial/APP11'
-// import Project1 from './According to practice project/App'
-// import Project4 from './React Quise Project/ques_score' 
-  //  import Project3 from './Tiktok UI Clone/TikTok'
-  // import Project5 from './React Tours App/Tapp'
-// import Project2 from './React Birthday Reminder App/Displaying_ui'
-import Project6 from './Restourent menu app/Rmenu'
+
+
    import reportWebVitals from './reportWebVitals'
 
 ReactDOM.render(
   
-   <Project6 />
- 
+  <BrowserRouter>
+        
+  <Nav />
+  
+  </BrowserRouter> 
  ,
 
  
