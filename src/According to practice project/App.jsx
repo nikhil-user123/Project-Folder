@@ -8,7 +8,7 @@ import SingleQuestion from './questions'
 function Project1() {
 	return (
 		<main>
-			<div className="container">
+			<div className="containerr">
 				<h3>FAQ</h3>
 				<section className="info">
 					{data.map((question) => {

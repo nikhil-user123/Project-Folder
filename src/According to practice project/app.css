@@ -151,7 +151,7 @@ main {
 	align-items: center;
 }
 
-.container {
+.containerr {
 	width: 90vw;
 	margin: 5rem auto;
 	background: var(--clr-white);
@@ -161,7 +161,7 @@ main {
 	display: grid;
 	gap: 1rem 2rem;
 }
-.container h3 {
+.containerr h3 {
 	line-height: 1.2;
 	font-weight: 500;
 }

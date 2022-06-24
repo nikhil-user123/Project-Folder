@@ -7,7 +7,7 @@ import './ui.css'
 function SingleQue() {
 	return (
 		<main>
-			<div className="container">
+			<div className="containerr">
 				<h3>FAQ</h3>
 				<section className="info">
 					{/* map over data imported at the top and use SingleQuestion component */

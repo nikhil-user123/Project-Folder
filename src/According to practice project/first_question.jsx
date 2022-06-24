@@ -5,7 +5,7 @@ import SingleQuestion from './questions'
 import './app.css'
 function Fqe() {
    return <main>
-<div className="container">
+<div className="containerr">
 <h3>FAQ</h3>
 <section className="info">
 {data.map(question => {

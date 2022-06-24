@@ -24,7 +24,7 @@ function Project6() {
 		<main>
 			<section className="menu section">
 				<div className="title">
-					<h2>our menu</h2>
+					<h2 className="h1_c" >our menu</h2>
 					<div className="underline"></div>
 				</div>
 				<Categories categories={categories} filterItems={filterItems} />
