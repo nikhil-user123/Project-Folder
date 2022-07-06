@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
+import Nav from './Menu'
+
 import {Route, Switch} from "react-router-dom";
 
 
@@ -15,6 +16,7 @@ import Project6 from './Restourent menu app/Rmenu'
 const Web = () => {
     return(
         <>
+        <Nav />
         <Switch>
             <Route exact path='/Project1' component={Project1} />
             <Route exact path='/Project2' component={Project2} />

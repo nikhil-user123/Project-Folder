@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+   
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    background: #FFFFFF;
+
+}
+
+.reactangle{
+    position: absolute;
+    left: 375px;
+    right: 376px;
+    top: 315px;
+    bottom: 315px;
+    background: linear-gradient(108.11deg, #32050F 0%, #000000 53.13%, #2B1439 100%);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.name{
+    /* Nikhil Prajapat */
+
+
+position: absolute;
+width: 350px;
+height: 90px;
+left: 310px;
+top: 70px;
+
+font-family: 'Dr Sugiyama';
+font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 70px;
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration-line: underline;
+
+color: #FFE380;
+
+}

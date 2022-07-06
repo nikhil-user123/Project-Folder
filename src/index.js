@@ -1,10 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Web from './Webpage'
-import {BrowserRouter} from "react-router-dom";
+// import Web from './Webpage'
+// import "./index.css"
+// import {BrowserRouter} from "react-router-dom";
 
-import './index.css'
 
+import Task from "./Task 1/Task"
 // import App from './React_tutorial/APP11'
 // import Project1 from './According to practice project/App'
 // import Project4 from './React Quise Project/ques_score' 
@@ -15,15 +16,17 @@ import './index.css'
 // import reportWebVitals from './reportWebVitals'
 
 ReactDOM.render(
-  
-  <BrowserRouter>
-        
+  <>
+  <Task />
+  {/* <BrowserRouter>
+        <p>sdfasdf</p>
   <Web />
   
-  </BrowserRouter> 
+  </BrowserRouter>  */}
+  </>
  ,
 
- 
+
 	  document.getElementById('root')
 );
 
